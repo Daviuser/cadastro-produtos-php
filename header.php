@@ -5,7 +5,7 @@
       <a href="#" class="logo">Loja</a>
 
       <nav class="navbar">
-         <a href="admin.php">Adicionar produtos</a>
+         <a href="admin.php">Adicionar Produtos</a>
        
       </nav>
 

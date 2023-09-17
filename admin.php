@@ -18,7 +18,7 @@ if(isset($_POST['add_produto'])){
 
    if($insert_query){
       move_uploaded_file($p_image_tmp_name, $p_image_folder);
-      $message[] = 'Produto Cadastrado com sucesso';
+      $message[] = 'O produto foi cadastrado';
    }else{
       $message[] = 'o produto nao foi cadastrado';
    }
@@ -110,6 +110,7 @@ if(isset($message)){
   <input type="checkbox" name="tipo_de_variacao" value=""> Polo<br>
   <input type="text" name="descricao_variacao" placeholder="Descrição da Variaçâo" class="box" required>
   <input type="submit" value="Adicionar Produto" name="add_produto" class="btn">
+  <input type="text" name="descricao_variacao" placeholder= "Descrição da Variação" class="box" required>
 
 </form>
 </section>
