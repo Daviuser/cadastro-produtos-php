@@ -159,7 +159,7 @@ if(isset($message)){
             };
 
             }else{
-               echo "<div class='empty'>Nenhum Produto Cadastrado</div>";
+               echo "<div class='empty'>Nenhum Produto Cadastrado com sucesso!</div>";
             };
          ?>
       </tbody>
